@@ -2,7 +2,7 @@ import threading
 import time
 def walk_dog(first,last):
     time.sleep(8)
-    print("You walked with {first}{last}")
+    print(f"You walked with {first} {last}")
 
 def take_out_trash():
     time.sleep(2)
