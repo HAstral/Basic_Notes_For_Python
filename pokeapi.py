@@ -11,10 +11,11 @@ def get_pokemon_name(name):
     else:
         print(f"Failed to retrieve data {response.status_code}")
 
-pokemon_name = 'charizard'
+pokemon_name = 'giratina'
 pokemon_info=get_pokemon_name(pokemon_name)
 if pokemon_info:
     print(f"Name: {pokemon_info['name']}")
     print(f"Id: {pokemon_info['id']}")
     # print(f"Abilities: {pokemon_info['abilities']}")
     print(f"Height: {pokemon_info['height']}")
+    print(f"Weight: {pokemon_info['weight']}")
