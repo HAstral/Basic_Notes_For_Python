@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
     def on_click(self):
         self.label.setText("HiYahh")
         print("Button Clicked")
-        self.button.setText("Clicked!")
+        self.button.setText("U Clicked!")
         self.button.setDisabled(True)
 
 if __name__=='__main__':
